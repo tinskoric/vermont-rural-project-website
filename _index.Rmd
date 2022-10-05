@@ -4,9 +4,9 @@ bookFlatSection: true
 weight: 1
 ---
 
-# 👋 Hello,
+# 👋 Hello!
 
-This website serves as a repository of my work studying poverty among rural communities in the state of Vermont. Read through what I have written , listen to interviews, or grab some data—do whatever. Please just do remember to provide credit if, on some off chance, something here proves to be valuable in your own work.
+This website serves as a repository of my work studying poverty among rural communities in the state of Vermont. Read through what I have written, listen to interviews, or grab some data—do whatever. Please just do remember to provide credit if, on some off chance, something here proves to be valuable in your own work.
 
 ```{r setup, include = FALSE}
 
