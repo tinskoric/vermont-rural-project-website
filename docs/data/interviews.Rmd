@@ -1,0 +1,54 @@
+---
+title: ""
+---
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+
+```
+
+```{css navigation}
+
+details > summary {
+  background-color: rgba(255,255,255,0.1);
+  cursor: pointer;
+  list-style: none;
+}
+
+details > p {
+  background-color: rgba(255,255,255,0);
+  margin: 10;
+}
+
+```
+
+# Interviews
+
+<p>
+<details>
+  <summary>Jane Doe, 1/1/2000, Location, VT</summary>
+
+<video width="320" height="240" controls>
+  <source src="Driving.mp4" type="video/mp4">
+</video>
+Download: [``⬇️720P``]() [``⬇️1080P``]()
+
+</details> 
+</p>
+
+
+<p>
+<details>
+  <summary>Santonius Adams, 1/1/2000, Boston, VT</summary>
+
+<video width="320" height="240" controls>
+  <source src="Driving.mp4" type="video/mp4">
+</video>
+Download: [``⬇️720P``]() [``⬇️1080P``]()
+
+</details> 
+</p>
+

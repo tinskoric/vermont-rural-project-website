@@ -1,0 +1,55 @@
+---
+headless: true
+bookCollapseSection: true
+---
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+
+```
+
+```{css navigation}
+
+details > summary {
+  background-color: rgba(255,255,255,0.1);
+  cursor: pointer;
+  list-style: none;
+}
+
+details > p {
+  background-color: rgba(255,255,255,0);
+  margin: 10;
+}
+
+```
+
+<p>
+<details>
+  <summary>**⬇️ Rough Lives**</summary>
+  - <details>
+    <summary>**⬇️ Table of Contents **</summary>
+  - [Summary](/docs/thesis/abstract)
+  - [Introduction](/docs/thesis/introduction)
+  - [Literature Review](/docs/thesis/literature-review)
+  - [Methodology](/docs/thesis/methodology)
+  - [Findings](/docs/thesis/findings)
+  - [Changing Perspectives](/docs/thesis/changing-perspectives)
+  - [Concluding Thoughts](/docs/thesis/concluding-thoughts)
+  </details>
+- [Downloadable PDF](/docs/thesis)
+</details> </p>
+<p>
+<details>
+  <summary>**⬇️ Data**</summary>
+- [Interviews](/docs/data/interviews)
+- [Datasets](/docs/data/datasets)
+</details> </p>
+<p>
+<details>
+  <summary>**⬇️ Additional Information**</summary>
+- [About](/docs/additional/about)
+- [Attributions](/docs/additional/attributions)
+</details> </p>

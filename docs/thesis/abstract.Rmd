@@ -1,0 +1,9 @@
+---
+type: docs
+---
+
+# Abstract 
+
+###
+
+[``Next Section ➡️``](/docs/thesis/introduction)

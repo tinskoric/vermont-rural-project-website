@@ -1,0 +1,9 @@
+---
+type: docs
+---
+
+# Findings
+###
+
+[``⬅️ Previous Section``](/docs/thesis/methodology) <br/>
+[``Next Section ➡️``](/docs/thesis/changing-perspectives)

@@ -1,0 +1,65 @@
+---
+title: ""
+---
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+
+```
+
+```{css navigation}
+
+details > summary {
+  background-color: rgba(255,255,255,0.1);
+  cursor: pointer;
+  list-style: none;
+}
+
+details > p {
+  background-color: rgba(255,255,255,0);
+  margin: 10;
+}
+
+```
+
+# Datasets
+
+Take some data, provide credit to whoever authored it, enjoy.
+
+<p>
+<details>
+  <summary>Data from Outside Sources</summary>
+  
+[Food Access Research Atlas Data| U.S. Department of Agriculture Economic Research Service | 2019 (USDA)](https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/) <br/>
+
+[Understanding the rural food environment--perspectives of low-income parents | National Library of Medicine | 2011 (Yousefian A, Leighton A, Fox K, Hartley D)](https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/)<br/>
+
+[Bringing Food to the Desert | UVM Today | 2013 (UVM)](https://www.uvm.edu/news/story/bringing-food-desert)<br/>
+
+[Interactive Map Viewer | Vermont Center for Geographic Information | 2013 (VCGI)](https://maps.vermont.gov/vcgi/html5viewer/?viewer=vtmapviewer)<br/>
+
+[Decennial Census of Population and Housing | Bureau of the Census | 1890, 2020 (USCB)](https://www.census.gov/programs-surveys/decennial-census.html)
+
+</details>
+</p>
+
+<p>
+<details>
+  <summary>Independently Collected Data</summary>
+  
+[Food Access Research Atlas Data| U.S. Department of Agriculture Economic Research Service | 2019 (USDA)](https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/) <br/>
+
+[Understanding the rural food environment--perspectives of low-income parents | National Library of Medicine | 2011 (Yousefian A, Leighton A, Fox K, Hartley D)](https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/)<br/>
+
+[Bringing Food to the Desert | UVM Today | 2013 (UVM)](https://www.uvm.edu/news/story/bringing-food-desert)<br/>
+
+[Interactive Map Viewer | Vermont Center for Geographic Information | 2013 (VCGI)](https://maps.vermont.gov/vcgi/html5viewer/?viewer=vtmapviewer)<br/>
+
+[Decennial Census of Population and Housing | Bureau of the Census | 1890, 2020 (USCB)](https://www.census.gov/programs-surveys/decennial-census.html)
+
+</details> 
+</p>
+

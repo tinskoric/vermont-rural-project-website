@@ -1,0 +1,12 @@
+---
+weight: 1
+bookFlatSection: true
+title: ""
+type: docs
+---
+
+# Literature Review
+###
+
+[``⬅️ Previous Section``](/docs/thesis/introduction) <br/>
+[``Next Section ➡️``](/docs/thesis/methodology)

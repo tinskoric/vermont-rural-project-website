@@ -1,0 +1,13 @@
+---
+title: ""
+---
+
+# Attributions
+
+Thanks to these incredible people and organizations for the work they do, this project would have been far more difficult without it. Please do look through the included links in your own time and support them if you are able.
+
+## Links
+<h3>
+<a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">``Hugo``</a>
+<a href="https://github.com/alex-shpak/hugo-book/" rel="noopener noreferrer" target="_blank">``Book Theme Alex Shpak``</a>
+</h3>

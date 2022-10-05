@@ -1,0 +1,19 @@
+---
+type: docs
+---
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+
+library(DiagrammeR)
+
+```
+
+# Methodology
+###
+
+[``⬅️ Previous Section``](/docs/thesis/literature-review) <br/>
+[``Next Section ➡️``](/docs/thesis/findings)

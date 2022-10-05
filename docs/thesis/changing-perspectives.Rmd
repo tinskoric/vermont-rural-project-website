@@ -1,0 +1,9 @@
+---
+type: docs
+---
+
+# Changing Perspectives
+###
+
+[``⬅️ Previous Section``](/docs/thesis/findings) <br/>
+[``Next Section ➡️``](/docs/thesis/concluding-thoughts)
