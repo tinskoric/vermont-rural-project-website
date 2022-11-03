@@ -30,12 +30,8 @@ details > p {
 <p>
 <details>
   <summary>Jane Doe, 1/1/2000, Location, VT</summary>
-
-<video width="320" height="240" controls>
-  <source src="Driving.mp4" type="video/mp4">
-</video>
-Download: [``⬇️720P``]() [``⬇️1080P``]()
-
+![](/docs/data/interviews_files/Driving.mp4) </br>
+``Download:`` [``⬇️1080P``]()
 </details> 
 </p>
 
@@ -43,12 +39,8 @@ Download: [``⬇️720P``]() [``⬇️1080P``]()
 <p>
 <details>
   <summary>Santonius Adams, 1/1/2000, Boston, VT</summary>
-
-<video width="320" height="240" controls>
-  <source src="Driving.mp4" type="video/mp4">
-</video>
-Download: [``⬇️720P``]() [``⬇️1080P``]()
-
+![](/docs/data/interviews_files/Driving.mp4) </br>
+``Download:`` [``⬇️1080P``]()
 </details> 
 </p>
 

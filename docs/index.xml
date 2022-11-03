@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on Rough Lives</title>
+    <title>Docs on Abundance</title>
     <link>/docs/</link>
-    <description>Recent content in Docs on Rough Lives</description>
+    <description>Recent content in Docs on Abundance</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -51,9 +51,7 @@ Understanding the rural food environment–perspectives of low-income parents | 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/data/interviews/</guid>
-      <description>details  summary {background-color: rgba(255,255,255,0.1);cursor: pointer;list-style: none;}details  p {background-color: rgba(255,255,255,0);margin: 10;}InterviewsJane Doe, 1/1/2000, Location, VTDownload: ⬇️720P ⬇️1080P
-Santonius Adams, 1/1/2000, Boston, VTDownload: ⬇️720P ⬇️1080P
-</description>
+      <description>details  summary {background-color: rgba(255,255,255,0.1);cursor: pointer;list-style: none;}details  p {background-color: rgba(255,255,255,0);margin: 10;}InterviewsJane Doe, 1/1/2000, Location, VTVideo Download: ⬇️1080PSantonius Adams, 1/1/2000, Boston, VTVideo Download: ⬇️1080P</description>
     </item>
     
     <item>
@@ -102,8 +100,9 @@ Understanding the rural food environment–perspectives of low-income parents | 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/thesis/introduction/</guid>
-      <description>Introduction⬅️ Previous Section Next Section ➡️
-</description>
+      <description>IntroductionThe test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little.
+Franklin Delano Roosevelt
+In 1932 the United States of America was reeling from one of the gravest financial collapses it had ever yet seen. In that same year, out in the grand heartland of America, rural farmers of the Farmers’ Holiday Association revolted against the two calamities which had been biting away at their very lives.</description>
     </item>
     
     <item>
@@ -112,8 +111,7 @@ Understanding the rural food environment–perspectives of low-income parents | 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/thesis/methodology/</guid>
-      <description>Methodology⬅️ Previous Section Next Section ➡️
-</description>
+      <description>MethodologyThis project is the result of a series of surveys and interviews conducted over the course of two years within the state of Vermont in conjunction with data provided by willing third-party sources. An explanatory sequential design was employed across two distinct groups of participants. The first group, encompassed participants who were selected by convenience, asked to fill out a survey, and later filmed for an interview which included additional questions.</description>
     </item>
     
   </channel>

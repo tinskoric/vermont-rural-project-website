@@ -3,7 +3,19 @@ type: docs
 ---
 
 # Introduction
-###
+
+> The test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little.
+>
+> Franklin Delano Roosevelt
+
+In 1932 the United States of America was reeling from one of the gravest financial collapses it had ever yet seen. In that same year, out in the grand heartland of America, rural farmers of the Farmers' Holiday Association revolted against the two calamities which had been biting away at their very lives. One had been slow, long, and painful, but perhaps manageable. The other was quick, agonizing, and unsolvable. One was market forces, the almighty invisible hand. The other was greed turned sour. What faced rural farmers at this time was a general decrease in key agricultural product prices, which had been ongoing since the end of the Great War and which hurt farm incomes, and a sudden collection on loans by newly desperate banks and bankers barely holding on to their own livelihoods after gambling the weight of the nation. That collection, often turned into repossession when farmers, already working with less than expected due to falling ever-falling prices, came up short. 
+
+There is a certain aesthetic present in contemporary critiques of rural American life. That of the sugary drink guzzling, Big Mac obliterating, personification of health complications working some kind of manual job in some kind of dying industry. It does not come from nowhere, many people eat and live lives just like that, but is that their choice? Do people live poorly because the choose to or do they live *poor*ly because they are *poor*?
+
+https://pubs.lib.uiowa.edu/annals-of-iowa/article/9880/galley/118489/view/
+https://timesmachine.nytimes.com/timesmachine/1932/06/05/100755125.pdf?pdf_redirect=true&ip=0
+https://www.councilbluffslibrary.org/blog/farmers-holiday-strike-of-1932/
 
 [``⬅️ Previous Section``](/docs/thesis/abstract) <br/>
 [``Next Section ➡️``](/docs/thesis/literature-review)
+

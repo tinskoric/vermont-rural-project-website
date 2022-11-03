@@ -28,7 +28,7 @@ details > p {
 
 <p>
 <details>
-  <summary>**⬇️ Rough Lives**</summary>
+  <summary>**⬇️ Abundance**</summary>
   - <details>
     <summary>**⬇️ Table of Contents **</summary>
   - [Summary](/docs/thesis/abstract)

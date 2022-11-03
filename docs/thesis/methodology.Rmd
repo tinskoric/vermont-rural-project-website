@@ -13,7 +13,9 @@ library(DiagrammeR)
 ```
 
 # Methodology
-###
+
+This project is the result of a series of surveys and interviews conducted over the course of two years within the state of Vermont in conjunction with data provided by willing third-party sources. An explanatory sequential design was employed across two distinct groups of participants. The first group, encompassed participants who were selected by convenience, asked to fill out a survey, and later filmed for an interview which included additional questions. The second group, encompassed specific participants who were sought out for their potential insight, asked to fill out the same survey, but later filmed for a longer form interview which included several additional questions. All participants gave prior consent to be filmed and documented during the interview portion for the explicit purpose of this work. 
+
 
 [``⬅️ Previous Section``](/docs/thesis/literature-review) <br/>
 [``Next Section ➡️``](/docs/thesis/findings)
