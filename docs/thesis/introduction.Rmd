@@ -2,6 +2,88 @@
 type: docs
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+```
+
+```{r data}
+
+library(tidyverse)
+library(mapproj)
+library(ggplot2)
+library(socviz)
+library(dplyr)
+library(gridExtra)
+library(ggtext)
+library(ggdark) 
+library(ggthemes)
+library(plotly)
+library(gapminder)
+library(maps)
+library(sf)
+
+# Data
+
+FoodAccessUSDA <- read.csv("introduction_files/FoodAccessResearchAtlas.csv")
+
+```
+
+```{r VermontCountyPovertyData}
+
+CountiesVT <- map_data('county', region = 'Vermont')
+
+CountiesVT <- CountiesVT %>%
+  rename("County" = "subregion") %>%
+  rename("STATE_NAME" = "region")
+
+CountiesVT$County[CountiesVT$County == "addison"] <- "Addison County"
+CountiesVT$County[CountiesVT$County == "bennington"] <- "Bennington County"
+CountiesVT$County[CountiesVT$County == "caledonia"] <- "Caledonia County"
+CountiesVT$County[CountiesVT$County == "chittenden"] <- "Chittenden County"
+CountiesVT$County[CountiesVT$County == "essex"] <- "Essex County"
+CountiesVT$County[CountiesVT$County == "franklin"] <- "Franklin County"
+CountiesVT$County[CountiesVT$County == "grand isle"] <- "Grand Isle County"
+CountiesVT$County[CountiesVT$County == "lamoille"] <- "Lamoille County"
+CountiesVT$County[CountiesVT$County == "orange"] <- "Orange County"
+CountiesVT$County[CountiesVT$County == "orleans"] <- "Orleans County"
+CountiesVT$County[CountiesVT$County == "rutland"] <- "Rutland County"
+CountiesVT$County[CountiesVT$County == "washington"] <- "Washington County"
+CountiesVT$County[CountiesVT$County == "windham"] <- "Windham County"
+CountiesVT$County[CountiesVT$County == "windsor"] <- "Windsor County"
+
+VermontFoodAccessUSDA <- FoodAccessUSDA %>%
+  filter(State == "Vermont")
+
+VermontFoodAccessUSDA <- VermontFoodAccessUSDA %>%
+  mutate_at("PovertyRate", as.numeric) %>%
+  mutate_at("MedianFamilyIncome", as.numeric) %>%
+  select(CensusTract, State, County, PovertyRate, MedianFamilyIncome, LILATracts_1And10,LILATracts_1And20, LA1and10, LA1and20, LATractsVehicle_20)
+
+VermontFoodAccessCountyAverageUSDA <- aggregate(VermontFoodAccessUSDA, by = list(VermontFoodAccessUSDA$County), FUN = mean)
+
+VermontFoodAccessCountyAverageUSDA <- VermontFoodAccessCountyAverageUSDA %>%
+  select(Group.1, CensusTract, PovertyRate, MedianFamilyIncome, LILATracts_1And10,LILATracts_1And20, LA1and10, LA1and20, LATractsVehicle_20) %>%
+  rename("County" = "Group.1")
+
+VermontDataMapAverageUSDA <- CountiesVT %>%
+  left_join(VermontFoodAccessCountyAverageUSDA, by = c("County" = "County"))
+
+VermontDataMapAverageUSDA <- VermontDataMapAverageUSDA %>%
+  round_df(dig = 1)
+
+```
+
+```{r VermontCountyPovertyDownloadable}
+
+downloadableplot1 <- ggplot(VermontDataMapAverageUSDA, aes(long, lat, group = group, fill = PovertyRate)) + geom_polygon(color = "black", size = 1) + scale_fill_continuous(low = "blue", high = "red", name = "Poverty Rate (%)") + coord_map("azequalarea") + theme_classic() + theme(axis.line=element_blank(), axis.text=element_blank(), axis.title=element_blank(), axis.ticks=element_blank()) + labs(title = "Average Poverty Rate by County in Vermont", subtitle = "Data from 2019", caption = "Source: USDA ERS Food Access Research Atlas Data")
+
+png("downloads/Average_Poverty_Rate_by_County_Vermont.png")
+print(downloadableplot1)
+
+```
+
 # Introduction
 
 > The test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little.
